@@ -8,7 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-# dist
+dist
 dist-ssr
 *.local
 
@@ -23,5 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
-package-json.lock
+# Custom
+package-lock.json
 yarn.lock
+.yarn
+.pnp.*
+pnpm-lock.*
